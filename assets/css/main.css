@@ -50,6 +50,11 @@ th {color: darkgreen; padding-left: 2 em; padding-right: 2em}
 td {width: 150px; margin-left: 5px; color: forestgreen; padding-left: 2 em; padding-right: 2em; font-family:'verdana'; font-weight: 800 }
 td>p {width: 150px; margin-left: 10px;}
 
+iframe {
+    margin-left: 30px;
+    margin-right: 1px;
+}
+
 /* Nav */
 
 	#nav {
