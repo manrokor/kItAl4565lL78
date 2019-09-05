@@ -57,6 +57,11 @@
     '<a href="СГЕРОИ-1(AB).html"><img src="images/former-a-4-120.jpg" alt="AB"></a>',
     '<a href="СГЕРОИ-1(AB).html"><img src="images/former-a-5-120.jpg" alt="AB"></a>',
     '<a href="СГЕРОИ-1(AB).html"><img src="images/former-a-6-120.jpg" alt="AB"></a>',
+    '<a href="СГЕРОИ-1(AB).html"><img src="images/SrWr-R2D2-120.jpg" alt="AB"></a>',
+    '<a href="СГЕРОИ-1(AB).html"><img src="images/SrWr-Io-120.jpg" alt="AB"></a>',
+    '<a href="СГЕРОИ-1(AB).html"><img src="images/SrWr-En-120.jpg" alt="AB"></a>',
+    '<a href="СГЕРОИ-1(AB).html"><img src="images/SrWr-Chu-120.jpg" alt="AB"></a>',
+    '<a href="СГЕРОИ-1(AB).html"><img src="images/SrWr-W-120.jpg" alt="AB"></a>',
 
      
             ] 
