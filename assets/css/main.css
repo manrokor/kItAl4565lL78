@@ -9,6 +9,7 @@ body {background-image:url("images/light-blue3-s.png");}
 h1,h2,h3,h4,P,pre,th {font-family: 'Segoe UI Light', 'Open Sans', sans-serif}
 
 h1,h2,h3,h4, p {text-align: center; color: black; font-weight: 500}
+p b,strong {font-weight: 580}
 
 h2 {margin-top: 2em; padding-top: 0.5em; padding-bottom: 0em}
 
