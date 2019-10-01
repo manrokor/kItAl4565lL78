@@ -65,6 +65,13 @@
     '<img src="images/Answer6/superman-S-120.jpg" alt="AB">',
     '<img src="images/Answer6/Marv-capt-120.jpg" alt="AB">',
     '<img src="images/Answer6/superman-S.jpg" alt="AB">',
+    '<img src="images/Answer8/PawAll-120.jpg" alt="AB">',
+    '<img src="images/Answer8/ryder-120.jpg" alt="AB">',
+    '<img src="images/Answer8/Marshall-120.jpg" alt="AB">',
+    '<img src="images/Answer8/Zuma-120.jpg" alt="AB">',
+    '<img src="images/Answer8/Paltus-120.jpg" alt="AB">',
+    '<img src="images/Answer8/Ship-120.jpg" alt="AB">'
+	    
             ];
     
        var randomImgFu= function(img_array){return img_array[Math.floor(Math.random()*img_array.length)];};
