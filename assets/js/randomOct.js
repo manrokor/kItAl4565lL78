@@ -18,7 +18,7 @@
 '<p><img src="images/Octocat/octocat-13-130.png" alt="Осьмикот" align="center" style="margin= 10px; box-shadow: none; border-radius:130px;"> Привет, я <strong>ОсьмиКот</strong>!<i> Cегодня я ВОЛШЕБНИК, я наколдовал чудо!</i></p>',
 '<p><img src="images/Octocat/octocat-14-130.png" alt="Осьмикот" align="center" style="margin= 10px; box-shadow: none; border-radius:130px;"> Привет, я <strong>ОсьмиКот</strong>!<i> Cегодня я РЫБАК, на ужин будет жареная щука!</i></p>',
 '<p><img src="images/Octocat/octocat-15-130.png" alt="Осьмикот" align="center" style="margin= 10px; box-shadow: none; border-radius:130px;"> Привет, я <strong>ОсьмиКот</strong>!<i> Cегодня я ДЕДУШКА, ох, спина болит!</i></p>',
-'<center><table class="Octo"><tr><th><p><img src="images/Octocat/octocat-16-130.png" alt="Осьмикот" align="center" style="margin= auto; box-shadow: none; border-radius:130px;"></th> <th class="Octo">Привет, я <strong>ОсьмиКот</strong>!<br><i> Ну и денёк сегодня..Сначала постригли как индейца, а теперь ещё и кефир попался солёный!</i></p></th></tr></table></center>' 
+'<center><table class="Octo"><tr><th><p><img src="images/Octocat/octocat-16-130.png" alt="Осьмикот" align="center" style="margin= auto; box-shadow: none; border-radius:130px;"></th> <th class="Octo">Привет, я <strong>ОсьмиКот</strong>!<br><i> Ну и денёк сегодня.. Сначала постригли как индейца, а теперь ещё и кефир попался солёный!</i></p></th></tr></table></center>' 
       ];
 
       
