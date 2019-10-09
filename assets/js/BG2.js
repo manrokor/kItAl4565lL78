@@ -39,5 +39,5 @@ function changeBg(){
     if (bbg == BG_ARR.length){bbg = 0;}}
 
 
-setInterval(changeBg, 30000);
+setInterval(changeBg, 20000);
 
