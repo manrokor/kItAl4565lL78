@@ -18,7 +18,7 @@
 ["<a><img src='images/Angry-11-120.jpg' alt='AB'></a><br>Какую птицу запульнули из рогатки на празднике","Фламинго","Чак","Рэд","Птица-судья",3],
 ["<a><img src='images/Angry-6-120.jpg' alt='AB'></a><br>Из чего состоит остров, который нашёл Король свиней?","Камни","Деревья","Песок","Лёд",4],
 ["<a><img src='images/Angry-5-120.jpg' alt='AB'></a><br>Для чего свиньи забрали яйца у птиц?","Чтобы бросить их в воду","Чтобы съесть на завтрак","Чтобы закрыть на зиму в погреб","Чтобы поиграть ими в пингпонг",2],
-["<a><img src='images/Angry-13-120.jpg' alt='AB'></a><br>Посчитаем? 5х6=","5+5+5+5","32","35","5+5+5+5+5++5",4],
+["<a><img src='images/Angry-13-120.jpg' alt='AB'></a><br>Посчитаем? 5х6=","5+5+5+5","32","35","5+5+5+5+5+5",4],
 	],
 
 	data_array3_Monstr = [
@@ -161,11 +161,9 @@ for (i = 0; i < ARR.length; i++) {
             document.getElementById('test').style.display='block';
             document.getElementById('AllResult').style.display='none';
             
-			function startIntId(){intervalID = setInterval(sec, 1000);}
-            startIntId();function startIntId(){intervalID = setInterval(sec, 1000);}
-            startIntId();
+			intervalID = setInterval(sec, 1000);
             
-			
+
 		}else{ 
             
             document.getElementById('result').style.display='block';
@@ -200,7 +198,7 @@ for (i = 0; i < ARR.length; i++) {
 				if(percent>70) res = '<span style="color:blue; font-weight:bold;">Не плохо!<br><img style="margin-left: 12px; border-radius: 48px;" src="images/emoj-good.jpg" alt="good"></span>';
 				if(percent==100) res = '<span style="color:chartreuse; font-weight:bold; text-shadow: 1px 1px 0px #808080;">Отлично!<br><img style="margin-left: 12px; border-radius: 48px;" src="images/emoj-e.jpg" alt="excelent"></span>';
                 
-                function clear(){clearInterval(intervalID);} clear();
+                clearInterval(intervalID);
                 
                 cur_test++; 
                 if(cur_test == data_array.length){cur_test = 0;}
