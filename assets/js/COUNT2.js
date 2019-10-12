@@ -172,7 +172,7 @@ document.getElementById('self').style.display='block';
 document.getElementById('buttom').style.display='none';
 randTestCountFu(); } else{
 document.getElementById('img0').innerHTML='<a style="font-size: 28px; margin-top: 3em; color: darkgreen;" href="index.html">вернуться на главную страницу</a>';}
-document.getElementById('self').innerHTML='<a style="color: darkslategray;" href="#" onclick="createGeWordMixArr(); setTimeout(geWoFu,1000); return false;">пРИдУмАтЬ пРиМерЫ!</a>';                
+document.getElementById('self').innerHTML='<a style="color: darkslategray;" href="#" onclick="/*createGeWordMixArr();*/setTimeout(geWoFu,1000); return false;">пРИдУмАтЬ пРиМерЫ!</a>';                
                     
                     }
 
