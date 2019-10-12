@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta description="cartoon" keywords="cartoon,мультфильм,учебный">
+        <meta name="description" content="мультфильм">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ANGRY BIRDS</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        
+        
+    </head>
+    <body style="background-image: url(assets/css/ImageBG/AB-bg-1.jpg); transition-duration: 4s;">
+    <script src="assets/js/BG2.js"></script>
+        
+   
+   <script src="assets/js/COUNT2.js"></script>
+   <script src="assets/js/gif2.js"></script>
+   <script src="assets/js/button.js"></script>
+   <audio src="audio/button/button3.mp3" preload="auto"></audio>
+   <audio src="audio/button/button2.mp3" preload="auto"></audio>
+        
+    <table border="0" align="center" cellspacing="0" cellpadding="0">
+        <tr style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; color: brown; opacity: 0.5; font-size: 18px; font-weight: 500;">
+        <th id="topl" width="600px" align="left"></th>
+        <th id="topr" width="600px" align="right"></th>
+        </tr>
+        </table>
+        
+        <center style ="margin-top: 10em;" id="buttom"><input  class="alt" type="button" onclick="playAudio1(); setTimeout(dialog1Fu,400);" value="БОЛЬШАЯ КНОПКА"/></center> 
+        
+        <center><p id="img0" style="display: block; margin-top: 2em; font-size: 25px;"></p></center>
+        <center><p id="img1" style="display: block; margin-top: 0em;"></p></center> 
+        
+        <center><p id="self" align="right" style="display: none; margin-top: 1em; font-size: 28px; font-weight: 100;"><a style="color: darkslategray;" href="#" onclick="createGeWordMixArr(); setTimeout(geWoFu,1000); return false;">пРИдУмАтЬ пРиМерЫ!</a></p></center>
+        <center><p id="ready" align="right" style="display: none; margin-top: 1em; font-size: 28px; font-weight: 100;"><a style="color: darkslategray;" href="#" onclick="randTestCountFu(); return false;">иСПОлЬзоВАтЬ ГОТоВыЕ пРИмеРЫ!</a></p></center>
+        
+    <table border="0" align="center" cellspacing="0" cellpadding="0">
+        <tr style="margin-top: 0px; margin-bottom: 0px; margin-left: 0px; color: brown; opacity: 0.5; font-size: 18px; font-weight: 500;">
+        <th id="botl" width="600px" align="left"></th>
+        <th id="botr" width="600px" align="right"></th>
+        </tr>
+        </table>
+    
+           
+        <script type="text/javascript">
+                        
+function showImFu(){
+
+document.getElementById('img0').style.display='block';
+document.getElementById('img1').style.display='block';    
+document.getElementById('buttom').style.display='none';    
+document.getElementById('img0').innerHTML='<span style="font-size: 30px; color: black;"> получены правильные ответы на ' + countCor + ' из 6 примеров</span>';
+//<br><img style="border-radius: 10px;" src="images/images2/AB-small.gif" alt="comp">
+document.getElementById('img1').innerHTML= changeGif();}  
+            
+//<video width="340" height="211" controls src="video/PAW.mp4" alt="good">
+//<br><a href="images/eva1-120.jpg">она тут</a>
+function showIm1Fu(){
+
+document.getElementById('img0').style.display='block';
+document.getElementById('img1').style.display='block';    
+document.getElementById('buttom').style.display='none';    
+document.getElementById('img0').innerHTML='<a style="font-size: 25px; font-weight:100; color: forestgreen;" href="index.html">вернуться на главную страницу</a>';
+document.getElementById('img1').innerHTML= changeGif();}              
+
+            
+function dialogFu(){            
+var Privet = prompt("Здравствуй-здравствуй, Никита! Как настроение сегодня?"); 
+if (Privet == "Хорошо" | Privet == "Нормально"){alert("Отлично, у меня такое же!")} else {alert("Важная штука настроение, нужно уметь поддерживать его в порядке!");}
+var Weekend = prompt("Как себя чувствуешь?"); 
+if(Weekend == "Хорошо" | Weekend == "Нормально" ){alert("Молодец! Так держать!");} else {alert("Ясно, выглядишь неплохо!");}
+var Pogoda = prompt("Ты кстати врачём не решил пока стать?"); 
+if(Pogoda == "нет" |Pogoda == "Нет "){alert("Ну может ещё передумаешь, очень полезная профессия");} else {alert("очень полезная профессия");}
+var Delo = prompt("Кроме того, можно всё время ходить в белом суперхалате и супершапочке с суперСтетоскопом! Не хочется?"); 
+if(Delo == "Нет" | Delo == "нет"){alert("Ну ладно, я просто предложил..");} else {alert("Ладно, решай сам!");}
+var Draw = prompt("Сегодня опять что-нибудь готовить будешь?"); 
+if(Draw == "Нет" | Draw == "нет"){alert("Ну и ладно, можно и попробовать, что другие приготовили");} else {alert("Сегодня можно просто покушать, то что другие приготовили");}
+var Poka = alert ("Ладно, пока, до новых встреч!");
+    newTestCountFu();
+        }
+                              
+function dialog1Fu(){
+    if(confirm("Привет, Никита! Ты вчера классно считал, но почему-то очень расстроился и недорешал примеры, попробуешь снова?")){
+    newTestCountFu();
+            } 
+        }
+            
+            
+            
+        </script>
+        <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+    </body>
+</html>
