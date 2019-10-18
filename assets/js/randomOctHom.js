@@ -17,6 +17,8 @@
 '<img src="images/Octocat/домик14-120.jpg" alt="ОсьмиКотоДом" align="right" style="margin= 10px; box-shadow: none; border-radius:100px;">',
 '<img src="images/Octocat/домик15-120.jpg" alt="ОсьмиКотоДом" align="right" style="margin= 10px; box-shadow: none;">',
 '<img src="images/Octocat/домик16-120.jpg" alt="ОсьмиКотоДом" align="right" style="margin= 10px; box-shadow: none;">',
+'<img src="images/Octocat/домик17-120.jpg" alt="ОсьмиКотоДом" align="right" style="margin= 10px; box-shadow: none;">',	    
+	    
       ];
        
 var randomOctHomFu= function(OctHom_array){return OctHom_array[Math.floor(Math.random()*OctHom_array.length)];};
