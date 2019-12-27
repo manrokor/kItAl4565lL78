@@ -1,4 +1,21 @@
 
+var BG_ARR = [
+    
+'url(assets/css/ImageBG/NY/NY-bg-1.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-2.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-3.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-4.jpg)',   
+'url(assets/css/ImageBG/NY/NY-bg-5.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-6.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-7.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-8.jpg)',  
+'url(assets/css/ImageBG/NY/NY-bg-9.jpg)',
+'url(assets/css/ImageBG/NY/NY-bg-10.jpg)',
+
+
+      ]; 
+
+/*
    var BG_ARR = [
     
 'url(assets/css/ImageBG/AB-bg-1.jpg)',
@@ -17,6 +34,7 @@
 
       ]; 
 
+*/
 // Mix array
 var MIX_ARRAY_BG_ARR = [];
 var ARR5 = BG_ARR;
