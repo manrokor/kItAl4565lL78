@@ -10,8 +10,6 @@ var BG_ARR = [
 'url(assets/css/ImageBG/NY/NY-bg-7.jpg)',
 'url(assets/css/ImageBG/NY/NY-bg-8.jpg)',  
 'url(assets/css/ImageBG/NY/NY-bg-9.jpg)',
-'url(assets/css/ImageBG/NY/NY-bg-10.jpg)',
-
 
       ]; 
 
