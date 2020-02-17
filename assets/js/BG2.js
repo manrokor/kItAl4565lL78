@@ -1,4 +1,4 @@
-
+/*
 var BG_ARR = [
     
 'url(assets/css/ImageBG/NY/NY-bg-1.jpg)',
@@ -13,7 +13,7 @@ var BG_ARR = [
 
       ]; 
 
-/*
+*/
    var BG_ARR = [
     
 'url(assets/css/ImageBG/AB-bg-1.jpg)',
@@ -32,7 +32,7 @@ var BG_ARR = [
 
       ]; 
 
-*/
+
 // Mix array
 var MIX_ARRAY_BG_ARR = [];
 var ARR5 = BG_ARR;
